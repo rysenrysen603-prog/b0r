@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-size: 16px;
+  --line-height: 1.5;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-family: var(--font-family);
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    font-size: 1.5rem;
+}
